@@ -1,10 +1,10 @@
-# ripple-keypairs [![NPM](https://img.shields.io/npm/v/ripple-keypairs.svg)](https://npmjs.org/package/ripple-keypairs) [![Build Status](https://img.shields.io/travis/BRTNetwork/js-brt-keypairs/master.svg)](https://travis-ci.org/BRTNetwork/js-brt-keypairs) ![Codecov](https://img.shields.io/codecov/c/github/BRTNetwork/js-brt-keypairs)
+# brt-keypairs [![NPM](https://img.shields.io/npm/v/brt-keypairs.svg)](https://npmjs.org/package/brt-keypairs) [![Build Status](https://img.shields.io/travis/BRTNetwork/js-brt-keypairs/master.svg)](https://travis-ci.org/BRTNetwork/js-brt-keypairs) ![Codecov](https://img.shields.io/codecov/c/github/BRTNetwork/js-brt-keypairs)
 
 An implementation of BRT Ledger keypairs & wallet generation using
 [elliptic](https://github.com/indutny/elliptic) which supports rfc6979 and
 eddsa deterministic signatures.
 
-[![NPM](https://nodei.co/npm/ripple-keypairs.png)](https://www.npmjs.org/package/ripple-keypairs)
+[![NPM](https://nodei.co/npm/brt-keypairs.png)](https://www.npmjs.org/package/brt-keypairs)
 
 ## API Methods
 

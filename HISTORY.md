@@ -1,20 +1,20 @@
-# ripple-keypairs Release History
+# brt-keypairs Release History
 
 ## 1.0.3 (2021-02-22)
 
 * Update dependencies:
-  * elliptic to 6.5.4 - includes security fix, although ripple-keypairs should not be susceptible because the vulnerable code is meant only for DH key exchange, which we do not use
+  * elliptic to 6.5.4 - includes security fix, although brt-keypairs should not be susceptible because the vulnerable code is meant only for DH key exchange, which we do not use
   * ripple-address-codec to 4.1.2
   * bn.js, ts-node, @types/node, @types/mocha, codecov, prettier, typescript, eslint-config-prettier, eslint-plugin-import, elint-config-airbnb-base, eslint-plugin-prettier, ts-node, mocha
 
 ## 1.0.2 (2020-09-12)
 
 * Drop support for Node.js version 8 (#171)
-  * Node.js v8 reached End-of-Life on 31st December 2019. As ripple-keypairs is a security-sensitive library, we recommend upgrading to Node.js 10 or higher immediately. ([Node.js Releases](https://nodejs.org/en/about/releases/))
+  * Node.js v8 reached End-of-Life on 31st December 2019. As brt-keypairs is a security-sensitive library, we recommend upgrading to Node.js 10 or higher immediately. ([Node.js Releases](https://nodejs.org/en/about/releases/))
 * Internal
   * Update dependencies (#170) (#163) (#173) (#172) (#175) (#177) (#179) (#180) (#181)
   * Bump elliptic from 6.5.2 to 6.5.3 (#190)
-    * We do not believe that the issue fixed in this patch affects ripple-keypairs in any way, but we are bumping the dependency just to stay up-to-date.
+    * We do not believe that the issue fixed in this patch affects brt-keypairs in any way, but we are bumping the dependency just to stay up-to-date.
   * Bump lodash from 4.17.15 to 4.17.20 (#207)
 * Add GitHub Actions CI (#221)
 
