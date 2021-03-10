@@ -4,7 +4,7 @@
 
 * Update dependencies:
   * elliptic to 6.5.4 - includes security fix, although brt-keypairs should not be susceptible because the vulnerable code is meant only for DH key exchange, which we do not use
-  * ripple-address-codec to 4.1.2
+  * brt-address-codec to 4.1.2
   * bn.js, ts-node, @types/node, @types/mocha, codecov, prettier, typescript, eslint-config-prettier, eslint-plugin-import, elint-config-airbnb-base, eslint-plugin-prettier, ts-node, mocha
 
 ## 1.0.2 (2020-09-12)
@@ -32,7 +32,7 @@
 * Add yarn.lock
 * Export members and add default export
 * Internal
-  * Use published ripple-address-codec (#58)
+  * Use published brt-address-codec (#58)
   * Replace TSLint with ESLint + Prettier (#71)
   * Add type (#74)
   * Remove unused code (#81)

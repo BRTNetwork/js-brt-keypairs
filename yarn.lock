@@ -2212,9 +2212,9 @@ ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-ripple-address-codec@^4.0.0:
+brt-address-codec@^4.0.0:
   version "4.1.2"
-  resolved "https://registry.yarnpkg.com/ripple-address-codec/-/ripple-address-codec-4.1.2.tgz#c573309dbd0fdd4ef8c803bf36959b8a716c2aa1"
+  resolved "https://registry.yarnpkg.com/brt-address-codec/-/brt-address-codec-4.1.2.tgz#c573309dbd0fdd4ef8c803bf36959b8a716c2aa1"
   integrity sha512-bIhmaxOg6rwVYkPQha9cuHdIdwmD8XTnaklBmyRjFvNZwYJ6Cf0cdCt+SpJd+RRJhRU65+U1Eup6YkoCBrqebg==
   dependencies:
     base-x "3.0.8"
