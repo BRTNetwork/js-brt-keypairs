@@ -1,7 +1,7 @@
 {
   "name": "ripple-keypairs",
   "version": "1.0.3",
-  "description": "Cryptographic key pairs for the XRP Ledger",
+  "description": "Cryptographic key pairs for the BRT Ledger",
   "scripts": {
     "compile": "tsc",
     "test": "tsc && nyc mocha",

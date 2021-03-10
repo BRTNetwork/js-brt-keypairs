@@ -1,6 +1,6 @@
 # ripple-keypairs [![NPM](https://img.shields.io/npm/v/ripple-keypairs.svg)](https://npmjs.org/package/ripple-keypairs) [![Build Status](https://img.shields.io/travis/ripple/ripple-keypairs/master.svg)](https://travis-ci.org/ripple/ripple-keypairs) ![Codecov](https://img.shields.io/codecov/c/github/ripple/ripple-keypairs)
 
-An implementation of XRP Ledger keypairs & wallet generation using
+An implementation of BRT Ledger keypairs & wallet generation using
 [elliptic](https://github.com/indutny/elliptic) which supports rfc6979 and
 eddsa deterministic signatures.
 
@@ -31,7 +31,7 @@ Verify a signature for a given hex-encoded message and public key. Returns true 
 ```
 deriveAddress(publicKey: string) -> string
 ```
-Derive an XRP Ledger classic address from a public key.
+Derive an BRT Ledger classic address from a public key.
 
 ```
 deriveNodeAddress(publicKey: string) -> string
@@ -39,7 +39,7 @@ deriveNodeAddress(publicKey: string) -> string
 Derive a node address from a public key.
 
 
-## Generate a random XRP Ledger address
+## Generate a random BRT Ledger address
 
 ```
 const seed = generateSeed();
